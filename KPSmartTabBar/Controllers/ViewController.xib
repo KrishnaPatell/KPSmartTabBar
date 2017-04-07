@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Om0-hK-Fn0"/>
+                <outlet property="viewNav" destination="KQ7-yw-Z5G" id="6Hd-p7-0FQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KQ7-yw-Z5G">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMART TAB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZn-vD-Nli">
+                            <rect key="frame" x="58" y="33" width="203" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="4W9-gV-Tap"/>
+                                <constraint firstAttribute="width" constant="203" id="P4j-lr-CcD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgOption" translatesAutoresizingMaskIntoConstraints="NO" id="Tsc-aU-Qlb">
+                            <rect key="frame" x="283" y="30" width="28" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="Mh6-7a-Jyp"/>
+                                <constraint firstAttribute="width" constant="28" id="vEO-Q0-0wD"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tg4-3J-RWy">
+                            <rect key="frame" x="276" y="17" width="44" height="47"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="Ige-yG-I3Z"/>
+                                <constraint firstAttribute="height" constant="47" id="YRT-TT-2Wy"/>
+                            </constraints>
+                            <connections>
+                                <action selector="btnOptionClick:" destination="-1" eventType="touchUpInside" id="Xjj-cd-i7l"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.23529411759999999" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="MZn-vD-Nli" firstAttribute="top" secondItem="KQ7-yw-Z5G" secondAttribute="top" constant="33" id="BJ4-LG-vha"/>
+                        <constraint firstAttribute="height" constant="64" id="BgM-5d-B2b"/>
+                        <constraint firstItem="Tsc-aU-Qlb" firstAttribute="top" secondItem="KQ7-yw-Z5G" secondAttribute="top" constant="30" id="CF2-2t-5pT"/>
+                        <constraint firstItem="MZn-vD-Nli" firstAttribute="centerX" secondItem="KQ7-yw-Z5G" secondAttribute="centerX" id="CeR-GA-1as"/>
+                        <constraint firstItem="tg4-3J-RWy" firstAttribute="top" secondItem="KQ7-yw-Z5G" secondAttribute="top" constant="17" id="Cxd-lg-7kt"/>
+                        <constraint firstAttribute="trailing" secondItem="Tsc-aU-Qlb" secondAttribute="trailing" constant="9" id="OXg-l3-D8u"/>
+                        <constraint firstAttribute="trailing" secondItem="tg4-3J-RWy" secondAttribute="trailing" id="qBJ-iw-olL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KQ7-yw-Z5G" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ctl-Jg-gA6"/>
+                <constraint firstAttribute="trailing" secondItem="KQ7-yw-Z5G" secondAttribute="trailing" id="tQO-OE-nka"/>
+                <constraint firstItem="KQ7-yw-Z5G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="u2k-hB-TCa"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="imgOption" width="32" height="32"/>
+    </resources>
+</document>

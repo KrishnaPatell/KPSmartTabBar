@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B2BB4E41E960F7800EB5D91 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BB4E31E960F7800EB5D91 /* img3.jpg */; };
+		6B2BB4E61E960F8900EB5D91 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BB4E51E960F8900EB5D91 /* img1.jpg */; };
+		6B9FFE1C1E9640DB00EA8A33 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B9FFE1B1E9640DB00EA8A33 /* img2.jpg */; };
+		6B9FFE1E1E96416400EA8A33 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B9FFE1D1E96416400EA8A33 /* img4.jpg */; };
+		6B9FFE201E9641FC00EA8A33 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B9FFE1F1E9641FC00EA8A33 /* img5.jpg */; };
+		6BC409631E94B15E0006FBDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC409621E94B15E0006FBDC /* main.m */; };
+		6BC409661E94B15E0006FBDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC409651E94B15E0006FBDC /* AppDelegate.m */; };
+		6BC409691E94B15E0006FBDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC409681E94B15E0006FBDC /* ViewController.m */; };
+		6BC4096E1E94B15F0006FBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC4096D1E94B15F0006FBDC /* Assets.xcassets */; };
+		6BC409711E94B15F0006FBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC4096F1E94B15F0006FBDC /* LaunchScreen.storyboard */; };
+		6BC4097B1E94B1CB0006FBDC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC4097A1E94B1CB0006FBDC /* ViewController.xib */; };
+		6BC4097E1E94B24C0006FBDC /* KPSmartTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC4097D1E94B24C0006FBDC /* KPSmartTabBar.m */; };
+		6BC409821E94BBE90006FBDC /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC409801E94BBE90006FBDC /* CommonViewController.m */; };
+		6BC409831E94BBE90006FBDC /* CommonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC409811E94BBE90006FBDC /* CommonViewController.xib */; };
+		6BE279FF1E9756300060691F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6BE279FE1E9756300060691F /* README.md */; };
+		6BE27A011E9756D60060691F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A001E9756D60060691F /* demo.gif */; };
+		6BE27A031E975B3F0060691F /* KPSmartTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A021E975B3F0060691F /* KPSmartTabBar.png */; };
+		6BE27A051E9763830060691F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A041E9763830060691F /* LICENSE */; };
+		6BE27A071E97BC4D0060691F /* SegmentDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A061E97BC4D0060691F /* SegmentDemo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B2BB4E31E960F7800EB5D91 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		6B2BB4E51E960F8900EB5D91 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		6B9FFE1B1E9640DB00EA8A33 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		6B9FFE1D1E96416400EA8A33 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		6B9FFE1F1E9641FC00EA8A33 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		6BC4095E1E94B15E0006FBDC /* KPSmartTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPSmartTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC409621E94B15E0006FBDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BC409641E94B15E0006FBDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BC409651E94B15E0006FBDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BC409671E94B15E0006FBDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		6BC409681E94B15E0006FBDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		6BC4096D1E94B15F0006FBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BC409701E94B15F0006FBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BC409721E94B15F0006FBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC4097A1E94B1CB0006FBDC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		6BC4097C1E94B24C0006FBDC /* KPSmartTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPSmartTabBar.h; sourceTree = "<group>"; };
+		6BC4097D1E94B24C0006FBDC /* KPSmartTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPSmartTabBar.m; sourceTree = "<group>"; };
+		6BC4097F1E94BBE90006FBDC /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		6BC409801E94BBE90006FBDC /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		6BC409811E94BBE90006FBDC /* CommonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonViewController.xib; sourceTree = "<group>"; };
+		6BE279FE1E9756300060691F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6BE27A001E9756D60060691F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		6BE27A021E975B3F0060691F /* KPSmartTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KPSmartTabBar.png; sourceTree = "<group>"; };
+		6BE27A041E9763830060691F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6BE27A061E97BC4D0060691F /* SegmentDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentDemo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC4095B1E94B15E0006FBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2BB4DC1E960DF300EB5D91 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B2BB4E51E960F8900EB5D91 /* img1.jpg */,
+				6B9FFE1B1E9640DB00EA8A33 /* img2.jpg */,
+				6B2BB4E31E960F7800EB5D91 /* img3.jpg */,
+				6B9FFE1D1E96416400EA8A33 /* img4.jpg */,
+				6B9FFE1F1E9641FC00EA8A33 /* img5.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6BC409551E94B15E0006FBDC = {
+			isa = PBXGroup;
+			children = (
+				6BE27A041E9763830060691F /* LICENSE */,
+				6BE279FE1E9756300060691F /* README.md */,
+				6BC409601E94B15E0006FBDC /* KPSmartTabBar */,
+				6BC4095F1E94B15E0006FBDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC4095F1E94B15E0006FBDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4095E1E94B15E0006FBDC /* KPSmartTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC409601E94B15E0006FBDC /* KPSmartTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6B2BB4DC1E960DF300EB5D91 /* Images */,
+				6BC409641E94B15E0006FBDC /* AppDelegate.h */,
+				6BC409651E94B15E0006FBDC /* AppDelegate.m */,
+				6BC409791E94B1990006FBDC /* Controllers */,
+				6BC409781E94B18D0006FBDC /* KPSmartTabBar */,
+				6BC4096D1E94B15F0006FBDC /* Assets.xcassets */,
+				6BC4096F1E94B15F0006FBDC /* LaunchScreen.storyboard */,
+				6BC409721E94B15F0006FBDC /* Info.plist */,
+				6BE27A001E9756D60060691F /* demo.gif */,
+				6BE27A061E97BC4D0060691F /* SegmentDemo.png */,
+				6BE27A021E975B3F0060691F /* KPSmartTabBar.png */,
+				6BC409611E94B15E0006FBDC /* Supporting Files */,
+			);
+			path = KPSmartTabBar;
+			sourceTree = "<group>";
+		};
+		6BC409611E94B15E0006FBDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC409621E94B15E0006FBDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BC409781E94B18D0006FBDC /* KPSmartTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4097C1E94B24C0006FBDC /* KPSmartTabBar.h */,
+				6BC4097D1E94B24C0006FBDC /* KPSmartTabBar.m */,
+			);
+			path = KPSmartTabBar;
+			sourceTree = "<group>";
+		};
+		6BC409791E94B1990006FBDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BC409671E94B15E0006FBDC /* ViewController.h */,
+				6BC409681E94B15E0006FBDC /* ViewController.m */,
+				6BC4097A1E94B1CB0006FBDC /* ViewController.xib */,
+				6BC4097F1E94BBE90006FBDC /* CommonViewController.h */,
+				6BC409801E94BBE90006FBDC /* CommonViewController.m */,
+				6BC409811E94BBE90006FBDC /* CommonViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC4095D1E94B15E0006FBDC /* KPSmartTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC409751E94B15F0006FBDC /* Build configuration list for PBXNativeTarget "KPSmartTabBar" */;
+			buildPhases = (
+				6BC4095A1E94B15E0006FBDC /* Sources */,
+				6BC4095B1E94B15E0006FBDC /* Frameworks */,
+				6BC4095C1E94B15E0006FBDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPSmartTabBar;
+			productName = KPSmartTabBar;
+			productReference = 6BC4095E1E94B15E0006FBDC /* KPSmartTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC409561E94B15E0006FBDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Krishna Patel";
+				TargetAttributes = {
+					6BC4095D1E94B15E0006FBDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UY4GKS2Z7T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BC409591E94B15E0006FBDC /* Build configuration list for PBXProject "KPSmartTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC409551E94B15E0006FBDC;
+			productRefGroup = 6BC4095F1E94B15E0006FBDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC4095D1E94B15E0006FBDC /* KPSmartTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC4095C1E94B15E0006FBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE27A011E9756D60060691F /* demo.gif in Resources */,
+				6BC409711E94B15F0006FBDC /* LaunchScreen.storyboard in Resources */,
+				6BE27A071E97BC4D0060691F /* SegmentDemo.png in Resources */,
+				6BC409831E94BBE90006FBDC /* CommonViewController.xib in Resources */,
+				6B9FFE1C1E9640DB00EA8A33 /* img2.jpg in Resources */,
+				6B9FFE1E1E96416400EA8A33 /* img4.jpg in Resources */,
+				6B9FFE201E9641FC00EA8A33 /* img5.jpg in Resources */,
+				6BE27A051E9763830060691F /* LICENSE in Resources */,
+				6BC4097B1E94B1CB0006FBDC /* ViewController.xib in Resources */,
+				6B2BB4E61E960F8900EB5D91 /* img1.jpg in Resources */,
+				6BC4096E1E94B15F0006FBDC /* Assets.xcassets in Resources */,
+				6BE27A031E975B3F0060691F /* KPSmartTabBar.png in Resources */,
+				6B2BB4E41E960F7800EB5D91 /* img3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC4095A1E94B15E0006FBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE279FF1E9756300060691F /* README.md in Sources */,
+				6BC4097E1E94B24C0006FBDC /* KPSmartTabBar.m in Sources */,
+				6BC409691E94B15E0006FBDC /* ViewController.m in Sources */,
+				6BC409661E94B15E0006FBDC /* AppDelegate.m in Sources */,
+				6BC409631E94B15E0006FBDC /* main.m in Sources */,
+				6BC409821E94BBE90006FBDC /* CommonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BC4096F1E94B15F0006FBDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC409701E94B15F0006FBDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BC409731E94B15F0006FBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BC409741E94B15F0006FBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC409761E94B15F0006FBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UY4GKS2Z7T;
+				INFOPLIST_FILE = KPSmartTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnaPatel.KPSmartTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BC409771E94B15F0006FBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UY4GKS2Z7T;
+				INFOPLIST_FILE = KPSmartTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnaPatel.KPSmartTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC409591E94B15E0006FBDC /* Build configuration list for PBXProject "KPSmartTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC409731E94B15F0006FBDC /* Debug */,
+				6BC409741E94B15F0006FBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC409751E94B15F0006FBDC /* Build configuration list for PBXNativeTarget "KPSmartTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC409761E94B15F0006FBDC /* Debug */,
+				6BC409771E94B15F0006FBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC409561E94B15E0006FBDC /* Project object */;
+}
