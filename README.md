@@ -5,6 +5,7 @@ A fully customizable and flexible paging menu controller built from other view c
 ### Screenshot
 ![](https://github.com/KrishnaPatell/KPSmartTabBar/blob/master/KPSmartTabBar/demo.gif)
 
+(Segment Demo)
 ![](https://github.com/KrishnaPatell/KPSmartTabBar/blob/master/KPSmartTabBar/SegmentDemo.png) 
 
 ### Installation
