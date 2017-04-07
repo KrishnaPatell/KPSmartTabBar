@@ -25,7 +25,7 @@
 		6BE27A031E975B3F0060691F /* KPSmartTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A021E975B3F0060691F /* KPSmartTabBar.png */; };
 		6BE27A051E9763830060691F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A041E9763830060691F /* LICENSE */; };
 		6BE27A091E97C5690060691F /* SegmentDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A081E97C5690060691F /* SegmentDemo.png */; };
-		6BE27A0B1E97C93B0060691F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A0A1E97C93B0060691F /* demo.gif */; };
+		6BE27A0D1E97CA9C0060691F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE27A0C1E97CA9C0060691F /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,7 @@
 		6BE27A021E975B3F0060691F /* KPSmartTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KPSmartTabBar.png; sourceTree = "<group>"; };
 		6BE27A041E9763830060691F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6BE27A081E97C5690060691F /* SegmentDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentDemo.png; sourceTree = "<group>"; };
-		6BE27A0A1E97C93B0060691F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		6BE27A0C1E97CA9C0060691F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				6BC4096D1E94B15F0006FBDC /* Assets.xcassets */,
 				6BC4096F1E94B15F0006FBDC /* LaunchScreen.storyboard */,
 				6BC409721E94B15F0006FBDC /* Info.plist */,
-				6BE27A0A1E97C93B0060691F /* demo.gif */,
 				6BE27A021E975B3F0060691F /* KPSmartTabBar.png */,
+				6BE27A0C1E97CA9C0060691F /* demo.gif */,
 				6BE27A081E97C5690060691F /* SegmentDemo.png */,
 				6BC409611E94B15E0006FBDC /* Supporting Files */,
 			);
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BC409711E94B15F0006FBDC /* LaunchScreen.storyboard in Resources */,
-				6BE27A0B1E97C93B0060691F /* demo.gif in Resources */,
+				6BE27A0D1E97CA9C0060691F /* demo.gif in Resources */,
 				6BC409831E94BBE90006FBDC /* CommonViewController.xib in Resources */,
 				6BE27A091E97C5690060691F /* SegmentDemo.png in Resources */,
 				6B9FFE1C1E9640DB00EA8A33 /* img2.jpg in Resources */,
