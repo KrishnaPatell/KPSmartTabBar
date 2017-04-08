@@ -23,9 +23,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setData];
+    //[self setData];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self setData];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -79,8 +83,10 @@
         [self setSingleColorTab];
     else if(currentSelectedIndex == 2)
         [self setMultiColorTab];
-    else
+    else if(currentSelectedIndex == 3)
         [self setInstagramTab];
+    else
+        [self setMultiColorTab];
 
 }
 

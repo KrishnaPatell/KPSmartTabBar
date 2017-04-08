@@ -26,7 +26,7 @@ You can also use it like segment controller.
 ```
 
 ### Requirements
-iOS 7.0 and later
+iOS 7.0+
 
 ### Apps that uses KPSmartTabBar
 Please let me know if your app in the AppStore uses this library so I can add your app to the list of apps featuring KPSmartTabBar.

@@ -100,9 +100,9 @@
 		6BC409601E94B15E0006FBDC /* KPSmartTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				6B2BB4DC1E960DF300EB5D91 /* Images */,
 				6BC409641E94B15E0006FBDC /* AppDelegate.h */,
 				6BC409651E94B15E0006FBDC /* AppDelegate.m */,
+				6B2BB4DC1E960DF300EB5D91 /* Images */,
 				6BC409791E94B1990006FBDC /* Controllers */,
 				6BC409781E94B18D0006FBDC /* KPSmartTabBar */,
 				6BC4096D1E94B15F0006FBDC /* Assets.xcassets */,
@@ -345,6 +345,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UY4GKS2Z7T;
 				INFOPLIST_FILE = KPSmartTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.krishnaPatel.KPSmartTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UY4GKS2Z7T;
 				INFOPLIST_FILE = KPSmartTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.krishnaPatel.KPSmartTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
